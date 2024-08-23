@@ -1,0 +1,100 @@
+[
+    {
+        "nombre_completo": null,
+        "email": null,
+        "telefono": "6282331472499",
+        "anos_experiencia": "6",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.0,
+            "telefono": 0.95,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    },
+    {
+        "nombre_completo": null,
+        "email": "hello@reallygreatsite.com",
+        "telefono": null,
+        "anos_experiencia": "30",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.95,
+            "telefono": 0.0,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    },
+    {
+        "nombre_completo": null,
+        "email": null,
+        "telefono": null,
+        "anos_experiencia": "140749",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.0,
+            "telefono": 0.0,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    },
+    {
+        "nombre_completo": null,
+        "email": "dyahhediyati@gmail.com",
+        "telefono": "85287404232",
+        "anos_experiencia": "1",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.95,
+            "telefono": 0.95,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    },
+    {
+        "nombre_completo": null,
+        "email": "dhikayudano@gmail.com",
+        "telefono": null,
+        "anos_experiencia": "11",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.95,
+            "telefono": 0.0,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    },
+    {
+        "nombre_completo": null,
+        "email": null,
+        "telefono": null,
+        "anos_experiencia": "20",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.0,
+            "telefono": 0.0,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    },
+    {
+        "nombre_completo": null,
+        "email": "ringgicahyo@gmail.com",
+        "telefono": "085157115062",
+        "anos_experiencia": "085157115062",
+        "formacion_IA": "N",
+        "scores": {
+            "nombre_completo": 0.0,
+            "email": 0.95,
+            "telefono": 0.95,
+            "anos_experiencia": 0.9,
+            "formacion_IA": 0.0
+        }
+    }
+]
