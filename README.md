@@ -4,7 +4,7 @@
 Este proyecto tiene como objetivo automatizar y mejorar la precisión en la revisión de perfiles de hojas de vida (CV) utilizando técnicas de Procesamiento del Lenguaje Natural (NLP) y Modelos de Lenguaje Grande (LLMs). La solución busca extraer información clave de los CVs, como el nombre completo del candidato, contacto, años de experiencia, y si tiene formación en inteligencia artificial. Los resultados se devuelven en un formato JSON, incluyendo una puntuación que indica la precisión de cada extracción.
 
 ## Configuración del Entorno
-- **Entorno de Trabajo**: Google Colab
+- **Entorno de Trabajo**: visual studio code
 - **Lenguaje de Programación**: Python
 - **Bibliotecas Utilizadas**:
   ```bash
@@ -13,7 +13,7 @@ Este proyecto tiene como objetivo automatizar y mejorar la precisión en la revi
   !python -m spacy download es_core_news_sm
 # Proyecto de Extracción de Información de CVs
 
-Este proyecto tiene como objetivo extraer información clave de hojas de vida (CVs) en formato PDF utilizando técnicas de procesamiento de lenguaje natural (NLP) y modelos de reconocimiento de entidades nombradas (NER) basados en BERT.
+Este proyecto tiene como objetivo extraer información clave de hojas de vida (CVs) en formato PDF utilizando técnicas de procesamiento de lenguaje natural (NLP) a traves de la biblioteca de spacy y modelos de reconocimiento de entidades nombradas (NER) basados en BERT de hugging face.
 
 ## Importación de Librerías
   ```bash
@@ -23,7 +23,7 @@ Este proyecto tiene como objetivo extraer información clave de hojas de vida (C
   ```
 
 ## Función para la Lectura de PDFs
-python
+Se crea la siguiente funcion para extraer informacion de los CV
 ```bash
 def read_pdf(file_path):
     text = ""
@@ -39,7 +39,7 @@ Se utiliza PyMuPDF para extraer el texto de los archivos PDF de los CVs.
 
 
 ## Selección del Modelo
-Se utiliza un modelo de reconocimiento de entidades nombradas (NER) basado en BERT.
+Se utiliza un modelo de reconocimiento de entidades nombradas (NER) basado en BERT y la libreria SpaCy que ofrece modelos preentrenados para varias tareas de NLP en este caso reconocimiento de entidades
 
 ## Configuración del Pipeline NLP
 ```bash
@@ -120,7 +120,8 @@ Se calculan los scores para cada campo extraído y se validan los resultados.
 
 ## Resultados y Análisis
 Los resultados se presentan en formato JSON, con ejemplos específicos.
-
+- Puedes consultar los resultados del modelo bert en el archivo JSON [aquí](./resultados%20(Spacy).json).
+- Puedes consultar los resultados del modelo de spacy en el archivo JSON [aquí](./resultados%20(bert).json).
 ## Conclusiones
 
 El modelo que mostro un mejor performance fue el basado con la biblioteca Spacy, donde logro identificar de manera correcta las entidades
