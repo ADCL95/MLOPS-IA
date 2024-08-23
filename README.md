@@ -45,8 +45,6 @@ Se utiliza un modelo de reconocimiento de entidades nombradas (NER) basado en BE
 ```bash
 nlp = pipeline("ner", model="bert-base-cased")
 Función para la Extracción de Información
-python
-Copy code
 def extract_information(text):
     result = {
         "nombre_completo": None,
